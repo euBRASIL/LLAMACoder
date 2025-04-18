@@ -24,28 +24,28 @@
 
 ## Future Tasks
 
-- [ ] Experiment with a prompt rewriter and launch this as well
-- [ ] Make the toast that opens better like a modal for sharability
-- [ ] Add sharability to people can take their apps and share them publicly
-- [ ] Add the ability to toggle on and off shadcn components and others
-- [ ] Launch support for different themes – somehow pass down variables to components
-- [ ] Add dynamic OG images to the specific generations & include the prompt
-- [ ] Add more dynamic OG images for playwright
-- [ ] Address issue of ability to publish the same app repeatedly
-- [ ] Try chain of thought reasoning to see if it works better overall
-- [ ] Encourage best practices by making the input and textarea & having pills to generate apps w/ good prompts
-- [ ] Add more customizability in terms of changing the prompt, temperature, ect...
-- [ ] Save previous versions so people can go back and forth between the generated ones
-- [ ] Could be nice to show a "featured apps" route on the site on /featured. Have a /id/${prompt} dynamic route that can display a bunch of nice example apps in the sandbox ready to go
-- [ ] Support more languages starting with Python, check out E2B
-- [ ] Try chain of thought reasoning to see if it works better overall
-- [ ] Try finetuning a smaller model on good prompts from 405b or GPT-4/Claude
-- [ ] Add dark mode to the site overall, nice design change
-- [ ] Surface errors better in codesandbox to the user so people know what is wrong
-- [ ] Think about how to have 405B correct itself (sometimes it makes up imports)
-- [ ] New route for updateCode that only sends the latest generated code + the modify request
-- [ ] Fix bug where if a user edits the code, then does a change, it doesn't use the edited code
-- [ ] Add rate limiting with redis upstash if the traffic gets too high
-- [ ] Try to add a consistent component library like shadcn
-- [ ] Apply code diffs directly instead of asking the model to generate the code from scratch
-- [ ] Add the ability to upload things like a screenshot for it to start from that
+- [ ] Experimente um reescritor de prompts e execute-o também
+- [ ] Melhore a abertura do toast como um modal para compartilhamento
+- [ ] Adicione compartilhamento para que as pessoas possam pegar seus aplicativos e compartilhá-los publicamente
+- [ ] Adicione a capacidade de ativar e desativar componentes do Shadcn e outros
+- [ ] Lance suporte para diferentes temas – de alguma forma, passe variáveis ​​para os componentes
+- [ ] Adicione imagens originais dinâmicas para as gerações específicas e inclua o prompt
+- [ ] Adicione mais imagens originais dinâmicas para o Playwright
+- [ ] Aborde o problema da capacidade de publicar o mesmo aplicativo repetidamente
+- [ ] Tente o raciocínio em cadeia para ver se funciona melhor no geral
+- [ ] Incentive as melhores práticas criando a área de entrada e texto e tendo pílulas para gerar aplicativos com bons prompts
+- [ ] Adicione mais personalização em termos de alteração do prompt, temperatura, etc...
+- [ ] Salve versões anteriores para que as pessoas possam alternar entre as versões geradas
+- [ ] Seria legal mostrar um "destaque" aplicativos" no site em /featured. Tenha uma rota dinâmica /id/${prompt} que possa exibir vários aplicativos de exemplo interessantes no sandbox, prontos para uso
+- [ ] Suporte a mais linguagens, começando com Python; confira o E2B
+- [ ] Tente o raciocínio em cadeia para ver se funciona melhor no geral
+- [ ] Tente ajustar um modelo menor com bons prompts do 405b ou GPT-4/Claude
+- [ ] Adicione o modo escuro ao site como um todo, uma bela mudança de design
+- [ ] Exiba melhor os erros no codesandbox para o usuário, para que as pessoas saibam o que está errado
+- [ ] Pense em como fazer o 405B se corrigir sozinho (às vezes, ele cria importações)
+- [ ] Nova rota para updateCode que envia apenas o código gerado mais recentemente + a solicitação de modificação
+- [ ] Corrija o bug em que, se um usuário edita o código e faz uma alteração, ele não usa o código editado
+- [ ] Adicione limitação de taxa com o Redis upstash se o tráfego ficar muito alto
+- [ ] Tente adicionar uma biblioteca de componentes consistente como shadcn
+- [ ] Aplicar diferenças de código diretamente em vez de pedir ao modelo para gerar o código do zero
+- [ ] Adicionar a capacidade de enviar coisas como uma captura de tela para começar a partir daí
